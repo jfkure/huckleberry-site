@@ -9,9 +9,9 @@ The site is a static site deployed to Netlify automatically on every push to the
 Huckleberry products are developed in the open. Firmware, hardware files, and user manuals are published on GitHub:
 
 - **Shot Timer MK1**: [jfkure/shot-timer-mk1](https://github.com/jfkure/shot-timer-mk1)
-  - Firmware: GPL-3.0
-  - Hardware: CERN-OHL-S-2.0
-  - Documentation: CC BY-SA 4.0
+  - Firmware (v1.7.5): GPL-3.0-or-later
+  - Hardware (schematic, wiring, BOM, v6 enclosure, USB port plug): CERN-OHL-S-2.0
+  - Documentation (Project Book, manual, quick-start card, build guide): CC BY-SA 4.0
 
 More products are on the way.
 
