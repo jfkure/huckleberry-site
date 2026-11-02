@@ -165,6 +165,12 @@
   .doc-list span{display:block;font-size:13px;color:var(--muted);}
   .os-note{font-size:14px;color:var(--muted);line-height:1.7;max-width:760px;margin-bottom:28px;}
   footer a{color:var(--muted);}
+  /* VIDEOS */
+  .video-row{display:grid;grid-template-columns:1.4fr 1fr;gap:48px;align-items:center;}
+  .video-frame{position:relative;aspect-ratio:16/9;border:1px solid var(--border2);border-radius:4px;overflow:hidden;background:#000;box-shadow:0 8px 32px rgba(0,0,0,.5);}
+  .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .video-text h3{font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:3px;color:#e8ecd8;margin-bottom:12px;}
+  .video-text p{font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:24px;}
   footer{background:var(--bg);border-top:1px solid var(--border);padding:32px 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;}
   .footer-brand{font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;}
   .footer-brand strong{color:var(--accent);}
@@ -185,7 +191,7 @@
     .hero-inner,.specs-layout,.split-row,.about-inner{grid-template-columns:1fr;gap:32px;}
     .split-row.reverse{direction:ltr;}
     section{padding:60px 20px;}
-    .features-grid,.os-grid,.doc-list{grid-template-columns:1fr;}
+    .features-grid,.os-grid,.doc-list,.video-row{grid-template-columns:1fr;}
     .steps{grid-template-columns:1fr 1fr;}
     footer{flex-direction:column;text-align:center;}
   }
@@ -201,6 +207,7 @@
     <li><a href="#how">How It Works</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#opensource">Open Source</a></li>
+    <li><a href="#videos">Videos</a></li>
     <li><a href="colors.html">Color Config</a></li>
     <li><a href="#order" class="nav-cta">Order — $75</a></li>
   </ul>
@@ -460,10 +467,28 @@
   <a href="https://github.com/jfkure/shot-timer-mk1" class="btn-secondary reveal">View on GitHub →</a>
 </section>
 
+<!-- VIDEOS -->
+<section id="videos" style="padding-top:0">
+  <div class="reveal">
+    <div class="section-label">05 — Build Videos</div>
+    <div class="section-title">Watch It<br><em>Get Built</em></div>
+  </div>
+  <div class="video-row reveal">
+    <div class="video-frame">
+      <iframe src="https://www.youtube-nocookie.com/embed/VDFlgZsFeS8" title="Huckleberry Innovations on YouTube: M3 heat-set inserts" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video-text">
+      <h3>Huckleberry Innovations<br>Is On YouTube</h3>
+      <p>Follow along as Shot Timer MK1 units come together on the bench: soldering, assembly, and the tips that make a clean build. The first video covers installing M3 heat-set inserts in 3D-printed parts.</p>
+      <a href="https://youtube.com/@huckleberryinnovations" class="btn-primary" target="_blank" rel="noopener">Subscribe on YouTube →</a>
+    </div>
+  </div>
+</section>
+
 <!-- COLORWAYS -->
 <div class="colorways-strip">
   <div class="colorways-inner">
-    <div class="section-label reveal" style="justify-content:center;">05 — Colorways</div>
+    <div class="section-label reveal" style="justify-content:center;">06 — Colorways</div>
     <div class="section-title reveal">Pick Your<br><em>Colorway</em></div>
     <p class="reveal" style="font-size:16px;color:var(--muted);max-width:480px;margin:0 auto 36px;line-height:1.7;">10 tactical color schemes — Desert Sage, Flat Dark Earth, Ranger Green, Night Ops, and more. Use the interactive configurator to preview your build before you order.</p>
     <div class="reveal" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:32px;">
@@ -519,7 +544,7 @@
 
 <footer>
   <div class="footer-brand"><strong>Huckleberry Innovations</strong> — Shot Timer MK1</div>
-  <div class="footer-copy">© 2026 Huckleberry Innovations LLC — Designed &amp; built by Josue F. Kure · <a href="https://github.com/jfkure/shot-timer-mk1">Open source on GitHub</a> · <a href="mailto:order@huckleberryinnovations.com">order@huckleberryinnovations.com</a></div>
+  <div class="footer-copy">© 2026 Huckleberry Innovations LLC — Designed &amp; built by Josue F. Kure · <a href="https://github.com/jfkure/shot-timer-mk1">Open source on GitHub</a> · <a href="https://youtube.com/@huckleberryinnovations">YouTube</a> · <a href="mailto:order@huckleberryinnovations.com">order@huckleberryinnovations.com</a></div>
 </footer>
 
 <script>

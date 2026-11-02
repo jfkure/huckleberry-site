@@ -13,6 +13,8 @@ Huckleberry products are developed in the open. Firmware, hardware files, and us
   - Hardware (schematic, wiring, BOM, v6 enclosure, USB port plug): CERN-OHL-S-2.0
   - Documentation (Project Book, manual, quick-start card, build guide): CC BY-SA 4.0
 
+Build videos are on YouTube: [@huckleberryinnovations](https://youtube.com/@huckleberryinnovations).
+
 More products are on the way.
 
 ## License
